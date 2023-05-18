@@ -9,8 +9,6 @@ If the temperature is above 70 degrees Fahrenheit and it is not raining, suggest
 If the temperature is above 70 degrees Fahrenheit and it is raining, suggest wearing a light jacket and rain boots.
 
 '''
-temperature = int(input("What is the Temperature Outside in Fahrenheit: "))
-raining = int(input("Is it Raining? \n 1 for Yes \n 0 for  No: "))
 def weatherApp(temperature,raining):
     #If the temperature is less than 50 degrees Fahrenheit, 
     # suggest wearing a coat, hat, scarf, and gloves.
@@ -21,9 +19,14 @@ def weatherApp(temperature,raining):
         print("I suggest you wear a sweater or light jacket.")
     
     else:
-        
+        print("Don't go outside")
 
 
+
+if __name__ == "__main__":
+    temperature = int(input("What is the Temperature Outside in Fahrenheit: "))
+    raining = int(input("Is it Raining? \n 1 for Yes \n 0 for  No: "))
+    weatherApp(temperature,raining)
 
 
 
