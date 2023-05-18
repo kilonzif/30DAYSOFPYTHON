@@ -7,7 +7,6 @@
 # #### Exercise
 # Simple Python Calculator Program: Write a simple program that does basic math operations including addition, subtraction, deletion, division, power, squareroot,etc,. 
 
-
 def PythonCalculator():
     numOne= int(input("Please Enter number 1: "))
     numTwo= int(input("Please Enter number 2: "))
