@@ -144,19 +144,29 @@ Expected output:
  set1 {10, 30}
 
 ### Day 8: Tuples 
+Understand Tuples and working with Tuples in Python 
+
+https://www.programiz.com/python-programming/tuple
+https://www.pythoncheatsheet.org/cheatsheet/lists-and-tuples
+
+#### Exercise 
+1. Write a Python program to check whether an element exists within a tuple.
+2. Write a Python program to convert a list to a tuple.
+3. Attempt this Quiz on Tuples in [Python] (https://pynative.com/python-tuple-quiz/) 
+
+### Day 9: Regular Expressions
 
 
 
-### Day 9:  
+### Day 10: Object-Oriented Python 
+ Classes, Instance Methods, Objects 
+ 
+ 
+
+### Day 11: OOP Concepts in Python: Inheritance, Polymorphism, Encapsulation & Abstraction
 
 
 
-
-### Day 10: Regular Expressions
-
-
-### Day 11: Object-Oriented Python 
- Classes, Inheritance, Objects 
 
 
 ### Day 12: Working with Files (Reading and Writing)
@@ -168,16 +178,16 @@ Excel files, csv files, text files
 
 
 
-### Day 14: Debugging,Error and Exception Handling 
+### Day 15: Debugging,Error and Exception Handling 
 
 
 
 
-### Day 15: Working with APIs 
+### Day 14: Working with APIs 
 
 
 
-### Day 16: Working with SQL Databases and Python 
+### Day 15: Working with SQL Databases and Python 
 
 
 
