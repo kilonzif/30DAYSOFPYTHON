@@ -80,7 +80,7 @@ Expected Result : 'abcing'
 Sample String : 'string'
 Expected Result : 'stringly'
 
-### Day 5: Lists in Python
+### Day 6: Lists in Python
 Understand LISTS and how to manipulate lists in python. 
 Understand CRUD Operations in Lists using Python. 
 https://www.pythoncheatsheet.org/cheatsheet/lists-and-tuples
@@ -98,7 +98,7 @@ Sample Data:
 ([3, 5, 7, 13]) -> True
 ([1, 5, 3]) -> False
 
-### Day 6: Dictionaries in Python 
+### Day 7: Dictionaries in Python 
 Understand the concept of dictionaries in Python
 Understand CRUD Operations and manipulation of dictionaries 
 
@@ -122,7 +122,7 @@ Expected data: [('Chemistry', 87), ('Physics', 83), ('Math', 81)]
 
 
 
-### Day 7: Sets 
+### Day 8: Sets 
 Understand what Sets are,& how they work in Python
 https://www.programiz.com/python-programming/set
 
@@ -143,7 +143,7 @@ Given:
 Expected output:
  set1 {10, 30}
 
-### Day 8: Tuples 
+### Day 9: Tuples 
 Understand Tuples and working with Tuples in Python 
 
 https://www.programiz.com/python-programming/tuple
@@ -154,27 +154,27 @@ https://www.pythoncheatsheet.org/cheatsheet/lists-and-tuples
 2. Write a Python program to convert a list to a tuple.
 3. Attempt this Quiz on Tuples in [Python] (https://pynative.com/python-tuple-quiz/) 
 
-### Day 9: Regular Expressions
+### Day 10: Regular Expressions
 
 
 
-### Day 10: Object-Oriented Python 
+### Day 11: Object-Oriented Python 
  Classes, Instance Methods, Objects 
  
  
 
-### Day 11: OOP Concepts in Python: Inheritance, Polymorphism, Encapsulation & Abstraction
+### Day 12: OOP Concepts in Python: Inheritance, Polymorphism, Encapsulation & Abstraction
 
 
 
 
 
-### Day 12: Working with Files (Reading and Writing)
+### Day 13: Working with Files (Reading and Writing)
 
 Excel files, csv files, text files 
 
 
-### Day 13: Working with JSON (Reading and Writing)
+### Day 14: Working with JSON (Reading and Writing)
 
 
 
@@ -183,19 +183,25 @@ Excel files, csv files, text files
 
 
 
-### Day 14: Working with APIs 
+### Day 16: Working with APIs 
 
 
 
-### Day 15: Working with SQL Databases and Python 
-
-
-
-
+### Day 17: Working with SQL Databases and Python 
 
 
 
 
+### Day 18: Working with SQL Relations and Python 
+
+
+
+
+### Day 19: Working with SQL Relations and Python 
+
+
+
+### Day 20: Working with SQL Relations and Python 
 
 
 
