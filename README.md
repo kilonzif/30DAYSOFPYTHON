@@ -155,24 +155,80 @@ https://www.pythoncheatsheet.org/cheatsheet/lists-and-tuples
 3. Attempt this Quiz on Tuples in [Python] (https://pynative.com/python-tuple-quiz/) 
 
 ### Day 10: Regular Expressions
+Understand the basics of Regex and how to apply it in Python 
+Study via: https://www.pythoncheatsheet.org/cheatsheet/regular-expressions
+https://www.edureka.co/blog/python-regex/
+https://programmingwithmosh.com/interviews/interview-questions-in-python-regular-expressions/
 
+#### Exercise 
+1. Trolls are attacking your comment section!
+A common way to deal with this situation is to remove all of the vowels from the trolls’ comments, neutralizing the threat.
+Your task is to write a function that takes a string argument and returns a new string with all vowels removed.
+For example, the string “Hello World!” would become “Hll Wrld”.
+     Note: For this problem, ‘y’ is NOT considered a vowel.
+     
+2. Write a Python program to match if two words from a list of words start with the letter 'P'.
+
+3. Write a Python program to remove the parenthesis area in a string.
+Sample data : ["example (.com)", "w3resource", "github (.com)", "stackoverflow (.com)"]
+    Expected Output:
+    example
+    w3resource
+    github
+    stackoverflow
 
 
 ### Day 11: Object-Oriented Python 
- Classes, Instance Methods, Objects 
+Understand the concept of OOP in Python, covering Classes, Instance Methods, Objects 
+https://www.programiz.com/python-programming/object-oriented-programming
  
- 
+ #### Exercise 
+ 1. Write a Python class Employee with attributes like emp_id, emp_name, emp_salary, and emp_department and methods like calculate_emp_salary, emp_assign_department, and print_employee_details.
+Sample Employee Data:
+"ADAMS", "E7876", 50000, "ACCOUNTING"
+"JONES", "E7499", 45000, "RESEARCH"
+"MARTIN", "E7900", 50000, "SALES"
+"SMITH", "E7698", 55000, "OPERATIONS"
+Use 'assign_department' method to change the department of an employee.
+Use 'print_employee_details' method to print the details of an employee.
+Use 'calculate_emp_salary' method takes two arguments: salary and hours_worked, which is the number of hours worked by the employee. If the number of hours worked is more than 50, the method computes overtime and adds it to the salary. Overtime is calculated as following formula:
+overtime = hours_worked - 50
+Overtime amount = (overtime * (salary / 50))
+
+
+***
+2. Write a Python class BankAccount with attributes like account_number, balance, date_of_opening and customer_name, and methods like deposit, withdraw, and check_balance.
+
+***
+3. Write a Python class named Student with two instances student1, student2 and assign values to the instances' attributes. Print all the attributes of the student1, student2 instances with their values in the given format
 
 ### Day 12: OOP Concepts in Python: Inheritance, Polymorphism, Encapsulation & Abstraction
 
+Advanced OOP in Python 
+https://www.programiz.com/python-programming/inheritance
 
+#### Exercise 
+1.Inheritance: Create a class called Animal with a method speak() that prints "The animal makes a sound." Create two subclasses, Dog and Cat, which inherit from the Animal class. Override the speak() method in each subclass to print "The dog barks" and "The cat meows" respectively. Create instances of both subclasses and call their speak() methods.
 
+*** 
+2. #Polymorphism : Create a class called Shape with an abstract method area(). Implement two subclasses, Circle and Rectangle, which inherit from the Shape class. Override the area() method in each subclass to calculate and return the area of a circle and rectangle respectively. Create instances of both subclasses and call their area() methods.
 
+***
+3. Encapsulation: Create a class called BankAccount with private attributes account_number and balance. Implement public methods to access and modify these attributes. Use encapsulation to protect the data from direct access outside the class. Create an instance of the BankAccount class and demonstrate how to access and modify the account number and balance using the public methods.
 
 ### Day 13: Working with Files (Reading and Writing)
 
-Excel files, csv files, text files 
+Understand how to navigate the directory and acess files
+How to READ, WRITE and manipulate Files --- Excel files, csv files, text files 
 
+#### Exercise
+1. Create a new file named "output.txt" and write the sentence "Hello, world!" to it using Python.
+
+***
+2. Given a file named "numbers.txt" containing a list of integers separated by spaces, write a Python function to read the file and return the sum of all the numbers.
+
+***
+3.Write a Python program that reads a CSV file named "students.csv" with columns "Name" and "Age". Create a new file named "young_students.txt" and write the names of all students who are below 18 years old to this file.
 
 ### Day 14: Working with JSON (Reading and Writing)
 
