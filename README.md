@@ -231,12 +231,51 @@ How to READ, WRITE and manipulate Files --- Excel files, csv files, text files
 3.Write a Python program that reads a CSV file named "students.csv" with columns "Name" and "Age". Create a new file named "young_students.txt" and write the names of all students who are below 18 years old to this file.
 
 ### Day 14: Working with JSON (Reading and Writing)
+Understand how to read and write into JSON files using Python. 
+https://www.programiz.com/python-programming/json
+https://www.geeksforgeeks.org/read-write-and-parse-json-using-python/
+https://www.simplilearn.com/tutorials/python-tutorial/json-python
 
+#### Exercise 
+1.  Reading a JSON File
+Create a JSON file named "data.json" with the following content:
+{
+  "name": "John Doe",
+  "age": 25,
+  "city": "New York"
+}
+Write a Python program that reads the content of the JSON file and prints it on the console.
+
+
+2. Parsing JSON Data
+Create a JSON file named "books.json" with the following content:
+[  {    "title": "Python Crash Course",    "author": "Eric Matthes",    "year": 2015  },  {    "title": "Learning Python",    "author": "Mark Lutz",    "year": 2018  },  {    "title": "Fluent Python",    "author": "Luciano Ramalho",    "year": 2015  }]
+
+Write a Python program that reads the content of the JSON file and prints the title and author of each book.
 
 
 ### Day 15: Debugging,Error and Exception Handling 
 
+https://learnbyexample.gitbooks.io/python-basics/content/Exception_Handling_and_Debugging.html
+https://www.tutorialspoint.com/python/python_exceptions.htm
+https://www.geeksforgeeks.org/python-exception-handling/
+https://pp4e-book.github.io/chapters/ch9_error_handling.html
 
+#### Exercises 
+Exercise 1: Handling a ZeroDivisionError
+Write a Python program that takes two numbers as input from the user.
+Implement exception handling to handle the scenario where the second number is zero (ZeroDivisionError).
+Display an appropriate error message if the second number is zero, and ask the user to enter a non-zero number.
+
+Exercise 2: Handling a FileNotFoundError
+Write a Python program that asks the user to enter a file name.
+Implement exception handling to handle the scenario where the specified file does not exist (FileNotFoundError).
+Display an appropriate error message if the file is not found and ask the user to enter a valid file name.
+
+Exercise 3: Handling a ValueError
+Write a Python program that asks the user to enter an integer.
+Implement exception handling to handle the scenario where the input cannot be converted to an integer (ValueError).
+Display an appropriate error message if the input is not a valid integer and ask the user to enter a valid integer.
 
 
 ### Day 16: Working with APIs 
