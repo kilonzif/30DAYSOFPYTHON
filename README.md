@@ -277,31 +277,83 @@ Write a Python program that asks the user to enter an integer.
 Implement exception handling to handle the scenario where the input cannot be converted to an integer (ValueError).
 Display an appropriate error message if the input is not a valid integer and ask the user to enter a valid integer.
 
+### Day 16: Working with SQL Databases and Python 
+Everything about SQL - SQLite Installation,How to create SQL Tables, and Queries
+     * Use SQL to store data and retrieve it later on.
+     * Use SQLite to build relational databases on your computer.
+     * Perform CRUD operations on relational databases using SQL.
 
-### Day 16: Working with APIs 
+https://datatofish.com/create-database-python-using-sqlite3/ 
+https://www.freecodecamp.org/news/sqlite-python-beginners-tutorial/
+https://www.sqlitetutorial.net/sqlite-python/creating-database/
 
-
-
-### Day 17: Working with SQL Databases and Python 
-
-
-
-
-### Day 18: Working with SQL Relations and Python 
-
-
-
-
-### Day 19: Working with SQL Relations and Python 
-
-
-
-### Day 20: Working with SQL Relations and Python 
+#### Exercises 
+1. In your VSCode or editor of your choice, create an SQLite database with 2 tables, students and teachers with accompanied attributes and perform the following operations: 
+     1. Insert data into the tables using SQL 
+     2. SELECT data by a particular id eg 'where id=2'
+     3. SELECT ALL (*) the table data 
+     4. Update a row data 
+     5. Delete a particular table row data
+     6. Drop a Table
 
 
+### Day 17: ORM and Python 
+
+Applying the concept of OOP with Python Data
+* Create Python objects using SQL database records.
+* Create SQL database records using Python objects.
+#### Exercise
+1. Exercise 1: Create Python objects using SQL database records
+
+      Create a new Python file and import the sqlite3 library.
+      Create a connection to the database.
+      Create a cursor object.
+      Execute a query to get all the records from the users table.
+      Create a new Python object for each record in the users table.
+      Print the name and email address of each user.
+
+2. Exercise 2: Create SQL database records using Python objects
+
+Create a new Python file and import the sqlite3 library.
+Create a connection to the database.
+Create a cursor object.
+Create a new Python object for a user.
+Use the execute() method to insert the user object into the users table.
+Commit the changes to the database.
+
+
+### Day 19: SQLALchemy and Python 
+Using ORM and SQL concepts, implement the CRUD operations using SQLAlchemy library 
+https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/
+https://youtu.be/AKQ3XEDI9Mw
+https://www.youtube.com/watch?v=dIV8NHzboxU&amp;index=2
+
+#### Exercise
+1# Using a use-case of your choice, apply the concepts of ORM and SQLAlchemy to demonstrate these functionalities ~ Create, Read, Update, and Delete with SQLAlchemy.
+
+
+### Day 20: Working with SQL Relations SQLALCHEMY and Python 
+Understand how to implement CRUD operations using Python and SQLAlchemy covering relationships
+ 1:1 relationships in sqlalchemy (CRUD)  
+ 1:*  relationships in sqlalchemy (CRUD) 
+ *:*  relationships in sqlalchemy (CRUD) 
 
 
 
+#### Exercise 
+
+1. One-to-many relationship
+
+In this exercise, we will create a one-to-many relationship between a Customer table and an Order table. The Customer table will have a id column that is the primary key, and the Order table will have a customer_id column that is a foreign key to the Customer table. Once you have the tables created, populate them with data such that using JOINs, you can query the data to see how the relationships work. For example, we can get all of the orders for a particular customer by using the join keyword. 
+
+
+2. One-to-one relationship between a User table and a Profile table
+
+In this exercise, we will create a one-to-one relationship between a User table and a Profile table. The User table will have a id column that is the primary key, and the Profile table will have a user_id column that is a foreign key to the User table.Once you have created and populated the tables with data, write a query that finds the profile for a particular user by using the join keyword, eg at id 1. 
+
+3.   Many-to-many relationship
+
+In this exercise, we will create a many-to-many relationship between a Book table and an Author table. The Book table will have a id column that is the primary key, and the Author table will have a id column that is the primary key. We will also create a BookAuthor table that will store the relationship between books and authors. Once you have all the 3 tables populated, write a query that gets all of the books that were written by a particular author ege  'J.R.R. Tolkien' by using the join keyword. 
 
 
 
