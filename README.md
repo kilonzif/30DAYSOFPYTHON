@@ -438,5 +438,57 @@ In this lesson, we will explore advanced concepts and features in popular Python
 #### Exercise:
 1. Choose a dataset of your choice and apply advanced data manipulation, analysis, and visualization techniques using libraries such as Pandas, NumPy, and Matplotlib. Perform exploratory data analysis, apply advanced statistical operations, and create insightful visualizations to gain deeper insights from the data.
 
+### Day 28: Advanced Concepts in Python - Concurrency and Parallelism
+Explore concurrency and parallelism in Python. Understand how to write concurrent and parallel programs to improve performance and handle multiple tasks simultaneously.
+
+Topics:
+
+Threads
+Thread synchronization
+Locks and semaphores
+Race conditions
+Global Interpreter Lock (GIL)
+Processes and multiprocessing
+Parallel processing
+Asynchronous programming
+Exercise:
+
+Write a Python program to download multiple files using multi-threading. 
+
+### Day 29: Python for Machine Learning
+Learn about the different types of machine learning algorithms and we can use python programming language to implement it.
+
+#### Exercise
+1a. Implement a simple machine learning algorithm, such as a linear regression model or a decision tree.
+b.Evaluate the performance of a machine learning model.
+
+
+### Day 30: Python for Web Development - Flask and Django
+
+Learning Objectives for Python Web Development using Flask and Django:
+1. Understand the basics of web development and the role of Python in creating web applications.
+2. Learn the fundamentals of Flask and Django frameworks.
+3. Build and deploy a simple web application using Flask and Django.
+4. Gain familiarity with routing, templates, forms, and database integration in Flask and Django.
+5. Explore advanced features such as user authentication, RESTful APIs, and testing in Flask and Django.
+6. Understand the differences between Flask and Django and choose the appropriate framework for different projects.
+
+#### Important Learning Resources for Beginners:
+##### Flask:
+*Official Flask Documentation: The official documentation provides a comprehensive guide to Flask, including installation instructions, tutorials, and examples. (https://flask.palletsprojects.com/)
+* Flask Mega-Tutorial by Miguel Grinberg: This online tutorial covers Flask from the basics to more advanced topics, guiding you through the development of a blog application. (https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
+
+##### Django:
+*Official Django Documentation: The official documentation offers extensive information on Django, including installation instructions, tutorials, and a detailed explanation of its various components. (https://docs.djangoproject.com/)
+*Django for Beginners by William S. Vincent: This book is a beginner-friendly guide to Django, covering everything from setting up a project to building a complete web application. (https://djangoforbeginners.com/)
+
+##### Online Courses:
+*Udemy: "Python Flask for Beginners" by Jose Salvatierra. This course provides a hands-on approach to learning Flask, covering all the essential concepts and building practical projects. (https://www.udemy.com/course/python-flask-for-beginners/)
+*Coursera: "Web Applications for Everybody" by Charles Severance. This specialization offers an introduction to web development using Python and Django, with a focus on database integration and deployment. (https://www.coursera.org/specializations/web-applications)
+
+##### YouTube Tutorials:
+*Corey Schafer's Flask Tutorial: This comprehensive video series covers Flask from start to finish, explaining the concepts and demonstrating their implementation through practical examples. (https://www.youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH)
+*CodeWithHarry Django Playlist: Harry's Django tutorial series is beginner-friendly and covers various aspects of Django development, including forms, authentication, and deployment. (https://www.youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL)
+
 
 
