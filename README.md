@@ -356,6 +356,87 @@ In this exercise, we will create a one-to-one relationship between a User table 
 In this exercise, we will create a many-to-many relationship between a Book table and an Author table. The Book table will have a id column that is the primary key, and the Author table will have a id column that is the primary key. We will also create a BookAuthor table that will store the relationship between books and authors. Once you have all the 3 tables populated, write a query that gets all of the books that were written by a particular author ege  'J.R.R. Tolkien' by using the join keyword. 
 
 
+### Day 21: Web Scraping Basics
+Introduction to web scraping in Python, using libraries such as BeautifulSoup and requests.
+
+#### Exercise
+1. Write a Python program that uses web scraping to extract the title and price of a product from an online shopping website. Print the extracted information.
+
+2. Write a Python program that scrapes the headlines and summaries of the latest news articles from a news website. Print the extracted information.
+
+3. Write a Python program that scrapes the names, prices, and ratings of the top-rated products in a specific category on an e-commerce website. Print the extracted information.
+
+
+### Day 22: Advanced Web Scraping Techniques
+Learn advanced techniques in web scraping, such as handling pagination, handling dynamic content using Selenium, and using proxies and user agents.
+
+#### Exercise
+1. Write a Python program that scrapes the names, prices, and ratings of all products in a specific category on an e-commerce website, handling pagination. Print the extracted information.
+
+2. Write a Python program that scrapes the names, prices, and ratings of all products in a specific category on an e-commerce website, handling dynamic content using Selenium. Print the extracted information.
+
+3. Write a Python program that scrapes the names, prices, and ratings of all products in a specific category on an e-commerce website, using proxies and rotating user agents to bypass IP blocking. Print the extracted information.
+
+
+### Day 23: Data Structures in Python
+Learn about different data structures in Python, such as lists, tuples, dictionaries, sets, stacks, queues, and linked lists. Understand their properties, use cases, and operations.
+
+#### Exercise
+1. Implement a stack data structure in Python using a list. Include push, pop, and peek operations.
+
+2. Implement a queue data structure in Python using a list. Include enqueue, dequeue, and peek operations.
+
+3. Implement a linked list data structure in Python. Include methods to insert a node, delete a node, and print the linked list.
+
+### Day 24: Python Algorithms: Searching 
+
+In today's lesson, we'll dive into essential algorithms used for sorting and searching data in Python. Understanding these algorithms will empower you to efficiently organize and retrieve data from various data structures.
+
+Topics to be covered:
+
+1. *Introduction to algorithms: Understand the fundamental concepts of algorithms, including time complexity, space complexity, and algorithmic efficiency.
+2. *Linear search: Learn about the linear search algorithm and its applications. We'll cover its implementation and analyze its time complexity.
+3. *Binary search: Dive into the binary search algorithm, which is significantly faster than linear search for sorted data. We'll explore its implementation and analyze its time complexity.
+4. *Optimizing search algorithms: Learn about advanced search algorithms like interpolation search and exponential search, which optimize the searching process for specific scenarios.
+#### Exercise
+1. Implement a binary search algorithm in Python to search for a specific number in a sorted list.
+
+2. Implement a breadth-first search algorithm in Python to traverse a graph and print its nodes in breadth-first order.
+
+### Day 25: Python Algorithms: Sorting 
+1. *Sorting algorithms: Explore various sorting algorithms such as bubble sort, selection sort, insertion sort, merge sort, quicksort, and heapsort. Understand their implementation details, time complexities, and best-case and worst-case scenarios.
+2. *Advanced sorting techniques: Discover advanced sorting techniques such as radix sort, bucket sort, and counting sort. Understand their applications and analyze their time complexities.
+
+#### Exercise
+1. Implement a bubble sort algorithm in Python to sort a list of numbers in ascending order.
+
+### Day 26: Advanced Python Algorithms
+In this lesson, we will explore advanced algorithms and data structures in Python. We will cover the following topics:
+
+*Sorting Algorithms: Dive deeper into sorting algorithms such as QuickSort, MergeSort, and HeapSort. Understand their principles, analyze their time and space complexity, and implement them in Python.
+
+*Graph Algorithms: Learn about graph theory and explore popular graph algorithms like Breadth-First Search (BFS), Depth-First Search (DFS), Dijkstra's algorithm, and Bellman-Ford algorithm. Implement these algorithms to solve graph-related problems.
+
+*Dynamic Programming: Understand the concept of dynamic programming and its applications in solving complex problems. Learn how to break down a problem into smaller subproblems and use memoization or bottom-up approaches to optimize computations.
+
+*Tree Algorithms: Explore algorithms related to trees, such as Tree Traversal (pre-order, in-order, post-order), Binary Search Trees (BST), and AVL Trees. Implement these algorithms to perform operations on trees efficiently.
+
+#### Exercise:
+Choose one of the advanced algorithms discussed in this lesson and implement it in Python. Test the algorithm with different inputs and analyze its performance. Compare its time and space complexity with other algorithms for the same problem.
+
+### Day 27: Advanced Concepts in Python Libraries
+In this lesson, we will explore advanced concepts and features in popular Python libraries. We will cover the following topics:
+
+*NumPy: Dive deeper into the NumPy library and learn advanced techniques for array manipulation, broadcasting, and vectorization. Understand how to optimize code using NumPy's functions and features.
+
+*Pandas: Explore advanced data manipulation techniques in Pandas, such as handling missing data, merging and joining datasets, and pivoting data. Learn how to apply advanced operations to analyze and transform data efficiently.
+
+*Matplotlib: Discover advanced plotting techniques in Matplotlib, including subplots, customizing plot styles, and creating interactive visualizations. Understand how to create complex plots and combine multiple visual elements.
+
+*Scikit-learn: Learn advanced machine learning concepts and techniques using Scikit-learn. Explore feature selection, model evaluation, hyperparameter tuning, and ensemble methods to improve the performance of your machine learning models.
+
+#### Exercise:
+1. Choose a dataset of your choice and apply advanced data manipulation, analysis, and visualization techniques using libraries such as Pandas, NumPy, and Matplotlib. Perform exploratory data analysis, apply advanced statistical operations, and create insightful visualizations to gain deeper insights from the data.
 
 
 
